@@ -161,8 +161,7 @@ function init() {
 function animate() {
 
 	requestAnimationFrame( animate );
-
-	//mesh.rotation.x += 0.00;
+	
 	mazeGroup.rotation.x += 0.01;
 	mazeGroup.rotation.y += 0.01;
 
